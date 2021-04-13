@@ -1,24 +1,18 @@
-import logo from './logo.svg';
+import {PositionContextProvider} from './context/positionContext';
+import SidePanel from './components/SidePanel/SidePanel';
+import Map from './components/Map/Map';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <PositionContextProvider>
+      <div className="grid">
+        <SidePanel/>
+      </div>
+      <div className="grid">
+        <Map/>
+      </div>
+    </PositionContextProvider>
   );
 }
 
