@@ -1,30 +1,19 @@
-# Getting Started with Create React App
+# Route Planner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project uses OpenStreetMap. You can set markers on the map, delete them on the side panel and download your route as gpx.
 
-## Available Scripts
+(Bootstrapped with [Create React App](https://github.com/facebook/create-react-app)).
 
-In the project directory, you can run:
+## Prerequisites
 
-### `npm start`
+- Node.js >= v10.17.0
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Get Started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+    npm install
+    npm run build
+    npm start
 
-### `npm test`
+## Run tests
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    npm test
