@@ -1,0 +1,27 @@
+.waypoint-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.waypoint-item > div {
+  color: #ebebeb;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.drag-icon {
+  width: 18px;
+  margin-right: 10px;
+}
+
+.delete-icon {
+  width: 18px;
+  cursor: pointer;
+}
+
+.drag-icon path,
+.delete-icon path {
+  fill: #747474;
+}
