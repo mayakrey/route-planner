@@ -13,7 +13,7 @@ const App = () => {
     <PositionContextProvider>
       <Router>
         <Switch>
-          <Route path="/">
+          <Route path="/route-planner">
             <div className="grid">
               <SidePanel/>
             </div>
