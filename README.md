@@ -6,7 +6,7 @@ This project uses OpenStreetMap. You can set markers on the map, delete them on 
 
 ## Prerequisites
 
-- Node.js >= v10.17.0
+- Node.js >= v10.17.0 <v16
 
 ## Get Started
 
